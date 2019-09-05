@@ -5,6 +5,8 @@ import mapboxgl from 'mapbox-gl'
 import MapboxGeocoder from 'mapbox-gl-geocoder'
 import Auth from '../../lib/Auth'
 
+mapboxgl.accessToken = process.env.MAPBOX
+
 class MapSecond extends React.Component {
   constructor() {
     super()

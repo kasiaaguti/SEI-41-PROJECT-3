@@ -4,7 +4,6 @@ import axios from 'axios'
 import MapSecond from './MapSecond'
 
 
-mapboxgl.accessToken = process.env.MAPBOX
 
 
 class Map extends React.Component {
