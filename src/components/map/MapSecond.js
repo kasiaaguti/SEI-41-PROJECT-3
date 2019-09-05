@@ -5,10 +5,6 @@ import mapboxgl from 'mapbox-gl'
 import MapboxGeocoder from 'mapbox-gl-geocoder'
 import Auth from '../../lib/Auth'
 
-
-mapboxgl.accessToken = process.env.MAPBOX
-console.log(process.env.MAPBOX)
-
 class MapSecond extends React.Component {
   constructor() {
     super()
@@ -24,6 +20,7 @@ class MapSecond extends React.Component {
       center: [-0.1, 51.5074]
     })
     this.map.scrollZoom.disable()
+
 
     this.props.markers.map(point => {
       const el = document.createElement('div')
