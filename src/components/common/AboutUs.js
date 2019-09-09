@@ -30,7 +30,7 @@ class AboutUs extends React.Component {
                 <h2 id="names2">Kasia Wypychewicz</h2>
               </div>
               <div className="profile-body2">
-                <p className="about-info2"> Age: 31, Occupation: Vet</p>
+                <p className="about-info2"> Age: 31, Occupation:Junior Software Engineer </p>
               </div>
               <div
                 className="profile-picture2"
